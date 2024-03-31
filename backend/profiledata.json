@@ -1,0 +1,26 @@
+[
+  {
+    "name": "manish kumar",
+    "email": "mm@gmail.com",
+    "password": "mm@gmail.com",
+    "selectedPlan": "Silver"
+  },
+  {
+    "name": "manish kumar",
+    "email": "mm@gmail.com",
+    "password": "mm@gmail.com",
+    "selectedPlan": "Silver"
+  },
+  {
+    "name": "manish",
+    "email": "mm@gmail.com",
+    "password": "mm@gmail.com",
+    "selectedPlan": "Silver"
+  },
+  {
+    "name": "mrmanish",
+    "email": "mm@gmail.com",
+    "password": "manish",
+    "selectedPlan": "Free"
+  }
+]

@@ -1,0 +1,83 @@
+.header {
+  position: sticky;
+  top: 0px;
+  max-width: 75rem;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1000;
+  transition: top 0.3s ease-in-out;
+}
+
+.mainnavmain{
+  display: flex;
+  gap: 55rem;
+}
+
+
+.header.sticky {
+  top: 0;
+}
+
+.logoutButton {
+  /* Reset button styles */
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  color: #F7D797; /* Adjust color as needed */
+  text-decoration: underline; /* Add underline effect */
+  font-size: inherit; /* Inherit font size from parent */
+}
+
+
+.list {
+  display: flex;
+  gap: 1rem;
+}
+
+.list a {
+  text-decoration: none;
+  color: var(--color-primary-400);
+}
+
+.list a:hover,
+.list a.active {
+  color: var(--color-primary-800);
+}
+
+/* MainNavigation.module.css */
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #0505056e;
+  width: 100vw;
+  height: 100vh;
+  padding: 40px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Adjust z-index as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup div {
+  padding: 20px;
+}
+.popup p {
+  /* Additional styles for the popup content if needed */
+}
+
+.popup button {
+  /* Additional styles for the close button if needed */
+}
+
+.logoutbutton {
+  background-color: black;
+  color: azure;
+}

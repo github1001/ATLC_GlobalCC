@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: none;
+}
+
+.dash-main {
+  display: flex;
+  /* width: 99vw; */
+  flex-direction: row;
+  /* height: 100vh; */
+}
+
+.dash-left {
+  flex: 1;
+  background-color: #6332b9;
+}
+
+.dash-left ul li button {
+  font-size: 25px;
+  background-color: #6332b9;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.dash-right {
+  flex: 5;
+  background-color: #5a00f668;
+  height: 100vh;
+}

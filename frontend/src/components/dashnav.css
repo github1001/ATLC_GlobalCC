@@ -1,0 +1,28 @@
+.dashnav-main {
+    display: flex;
+    /* margin: 30px; */
+    padding: 30px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    flex-direction: row;
+    background-color: rgba(37, 37, 215, 0.169);
+}
+
+.dashnav-utp button{
+    font-size: 25px;
+    background-color: #BABABA;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px 20px;
+}
+
+.dashnav-logout button{
+    font-size: 15px;
+    background-color: #BABABA;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px 20px;
+}

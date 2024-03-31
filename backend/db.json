@@ -1,0 +1,31 @@
+{
+  "events": [
+    {
+      "title": "A new event",
+      "image": "https://cdn.muenchen-p.de/fl_progressive,q_65/.imaging/stk/responsive/teaser300/dms/va-2016/muenchner-christkindlmarkt/christkindlmarkt-marienplat-logo-hp/document/christkindlmarkt-marienplat-logo-hp.jpg",
+      "date": "2022-10-01",
+      "description": "Some awesome event!",
+      "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"
+    }
+  ],
+  "users": [
+    {
+      "email": "a@a.com",
+      "password": "$2a$12$ZczNnOrjtQxlPs1SawvuIOOkmeLWOUyCCa/mxWOBE8Bl7H2uAy.qK",
+      "username": "a",
+      "event": "event1",
+      "id": "35fd4a59-6471-411e-8ded-a44d619f0070",
+      "name": "apple",
+      "selectedPlan": ""
+    },
+    {
+      "email": "b@b.com",
+      "password": "$2a$12$AVQBgnwiaPLLfuIYG3bZeu083Jp/2Y3QuF7SFKBA0AjE9le.qD6K2",
+      "username": "b",
+      "event": "event1",
+      "id": "1f97d601-7693-4208-b584-2cbb851b7a45",
+      "name": "boro",
+      "selectedPlan": ""
+    }
+  ]
+}
